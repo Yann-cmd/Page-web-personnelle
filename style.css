@@ -48,20 +48,38 @@ a:hover {
 	float: right;
 }
 
+
+article{
+	float: left;
+}
+
 article p{
 	font-size: 2em;
 	width: 50%;
+	margin-left: 2%;
 
 	}
 
 h2{
-	width: 50%;
+	margin-left: 13%;
 	color: red;
 	font-size: 3.5em;
 
 }
 
-aside {
+aside { 
+	position: absolute;
 	border: solid;
-	vertical-align: top;
+	margin-left: 60%;
+	margin-top: 20%;
+	
+}
+
+aside h1{
+	text-align: center;
+	font-size: 2em;
+}
+
+aside p {
+	text-align: right;
 }
